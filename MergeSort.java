@@ -4,7 +4,7 @@ public class MergeSort
     // Main method to test merge sort
     public static void main(String[] args)
 	{
-        int[] arr = {38, 27, 43, 3, 9, 82, 10};
+        int[] arr = {18,24,5,46,10,28,30};
         System.out.println("Original array: " + Arrays.toString(arr));
         mergeSort(arr, 0, arr.length - 1);
         System.out.println("Sorted array:   " + Arrays.toString(arr));
